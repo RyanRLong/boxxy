@@ -1,0 +1,33 @@
+{
+  "name": "boxxy",
+  "version": "1.0.0",
+  "description": "Nice css/js popups",
+  "main": "index.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "author": "Ryan Long",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "6.24.0",
+    "eslint": "^4.0.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
+    "gulp-concat": "2.2.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-minify-css": "0.3.0",
+    "gulp-ng-annotate": "2.0.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.0",
+    "gulp-sass": "2.1.1",
+    "gulp-server-livereload": "1.9.2",
+    "gulp-sourcemaps": "2.4.1",
+    "gulp-todo": "5.1.0",
+    "gulp-uglify": "2.1.2",
+    "gulp-util": "2.2.14",
+    "gulp-webserver": "0.9.1",
+    "shelljs": "0.3.0"
+  }
+}
