@@ -12,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, '/app')));
 
 
 app.get('/', (req, res) => {
-  res.sendFile('/app/index.html');
+  res.sendFile('/example/index.html');
 });
 
 

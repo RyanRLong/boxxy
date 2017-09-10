@@ -1,3 +1,6 @@
+/**
+ * Box Class
+ */
 class Box extends Element {
   constructor(container, color) {
     super();
@@ -17,14 +20,23 @@ class Box extends Element {
       .append();
   }
 
+  /**
+   * Returns the width of the box
+   */
   get width() {
     return `${(this.container.width / this.container.boxesPerRow) - this.offset}px`;
   }
 
+  /**
+   * Returns the height of the box
+   */
   get height() {
     return `${((this.container.width / this.container.boxesPerRow) - this.offset) * 0.75}px`;
   }
 
+  /**
+   * Appends the box to an element
+   */
   append() {
     this.container.element.appendChild(this.element);
   }
